@@ -1,6 +1,6 @@
 {
-    "name": "sdk/open-oauth",
-    "description": "open-oauth",
+    "name": "tianye/wechat-open-sdk",
+    "description": "wechat-open-sdk",
     "authors": [
         {
             "name": "tianye",
@@ -17,7 +17,7 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "OpenOauth\\": "src/"
+            "WechatOpen\\": "src/"
         }
     }
 }

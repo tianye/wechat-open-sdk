@@ -1,7 +1,7 @@
 <?php
-namespace OpenOauth;
+namespace WechatOpen;
 
-use OpenOauth\Core\Core;
+use WechatOpen\Core\Core;
 
 class NotifyProcessing extends Core
 {

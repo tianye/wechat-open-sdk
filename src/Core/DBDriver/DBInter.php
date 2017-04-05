@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenOauth\Core\DBDriver;
+namespace WechatOpen\Core\DBDriver;
 
 interface  DBInter
 {

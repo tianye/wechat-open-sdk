@@ -1,9 +1,9 @@
 <?php
-namespace OpenOauth;
+namespace WechatOpen;
 
-use OpenOauth\Core\Core;
-use OpenOauth\Core\Tools;
-use OpenOauth\Core\WechatCode\WXBizMsgCrypt;
+use WechatOpen\Core\Core;
+use WechatOpen\Core\Tools;
+use WechatOpen\Core\WechatCode\WXBizMsgCrypt;
 
 class Decryption extends Core
 {

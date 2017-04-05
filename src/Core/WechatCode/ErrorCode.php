@@ -1,5 +1,5 @@
 <?php
-namespace OpenOauth\Core\WechatCode;
+namespace WechatOpen\Core\WechatCode;
 
 /**
  * error code 说明.

@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenOauth\Core\WechatCode;
+namespace WechatOpen\Core\WechatCode;
 
-use OpenOauth\Core\WechatCode\ErrorCode;
-use OpenOauth\Core\WechatCode\Pkcs7Encoder;
+use WechatOpen\Core\WechatCode\ErrorCode;
+use WechatOpen\Core\WechatCode\Pkcs7Encoder;
 
 /**
  * Prpcrypt class

@@ -3,7 +3,7 @@
 
 include '../vendor/autoload.php';
 
-use OpenOauth\core\Tools;
+use WechatOpen\core\Tools;
 
 $record = new Tools();
 //测试记录文本日志

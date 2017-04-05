@@ -1,7 +1,7 @@
 <?php
-namespace OpenOauth\Core\Exceptions;
+namespace WechatOpen\Core\Exceptions;
 
-use OpenOauth\Core\Exception;
+use WechatOpen\Core\Exception;
 
 class ConfigMistakeException extends Exception
 {

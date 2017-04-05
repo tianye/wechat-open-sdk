@@ -1,5 +1,5 @@
 <?php
-namespace OpenOauth\Core;
+namespace WechatOpen\Core;
 
 class Exception extends \Exception
 {

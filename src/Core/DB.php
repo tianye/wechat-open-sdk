@@ -1,15 +1,15 @@
 <?php
-namespace OpenOauth\Core;
+namespace WechatOpen\Core;
 
-use OpenOauth\Core\DBDriver\BaseDriver;
-use OpenOauth\Core\DBDriver\DBInter;
+use WechatOpen\Core\DBDriver\BaseDriver;
+use WechatOpen\Core\DBDriver\DBInter;
 
 /**
  * Class DB
  *
- * @method static \OpenOauth\Core\DBDriver\BaseDriver|\OpenOauth\Core\DBDriver\DBInter init(array $options, $dir = '');
- * @method static \OpenOauth\Core\DBDriver\BaseDriver|\OpenOauth\Core\DBDriver\DBInter _get($name);
- * @method static \OpenOauth\Core\DBDriver\BaseDriver|\OpenOauth\Core\DBDriver\DBInter _set($name, $value, $expires = null);
+ * @method static \WechatOpen\Core\DBDriver\BaseDriver|\WechatOpen\Core\DBDriver\DBInter init(array $options, $dir = '');
+ * @method static \WechatOpen\Core\DBDriver\BaseDriver|\WechatOpen\Core\DBDriver\DBInter _get($name);
+ * @method static \WechatOpen\Core\DBDriver\BaseDriver|\WechatOpen\Core\DBDriver\DBInter _set($name, $value, $expires = null);
  *
  */
 class DB

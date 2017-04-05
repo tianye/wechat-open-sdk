@@ -3,15 +3,15 @@
 
 include '../vendor/autoload.php';
 
-use OpenOauth\Core\Config;
-use OpenOauth\Core\Core;
-use OpenOauth\Core\DB;
-use OpenOauth\Core\Http\Http;
-use OpenOauth\Decryption;
-use OpenOauth\Core\Tools;
-use OpenOauth\NotifyProcessing;
+use WechatOpen\Core\Config;
+use WechatOpen\Core\Core;
+use WechatOpen\Core\DB;
+use WechatOpen\Core\Http\Http;
+use WechatOpen\Decryption;
+use WechatOpen\Core\Tools;
+use WechatOpen\NotifyProcessing;
 
-$redis_driver = new \OpenOauth\Core\DBDriver\RedisDriver(['host' => '127.0.0.1', 'port' => '6379', 'database' => '2'], 'Cache:OpenOauth:');
+$redis_driver = new \WechatOpen\Core\DBDriver\RedisDriver(['host' => '127.0.0.1', 'port' => '6379', 'database' => '2'], 'Cache:WechatOpen:');
 
 Core::init();
 

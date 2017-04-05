@@ -1,5 +1,5 @@
 <?php
-namespace OpenOauth\Core\Http;
+namespace WechatOpen\Core\Http;
 
 use GuzzleHttp\Client;
 

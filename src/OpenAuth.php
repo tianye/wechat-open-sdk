@@ -1,8 +1,8 @@
 <?php
-namespace OpenOauth;
+namespace WechatOpen;
 
-use OpenOauth\Core\Core;
-use OpenOauth\Core\Http\Http;
+use WechatOpen\Core\Core;
+use WechatOpen\Core\Http\Http;
 
 /**
  * 微信Auth相关接口.

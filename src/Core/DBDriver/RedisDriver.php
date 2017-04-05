@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenOauth\Core\DBDriver;
+namespace WechatOpen\Core\DBDriver;
 
 use Predis\Client;
-use OpenOauth\Core\Exceptions\ConfigMistakeException;
+use WechatOpen\Core\Exceptions\ConfigMistakeException;
 
 /**
  * 文件缓存驱动.

@@ -1,7 +1,7 @@
 <?php
-namespace OpenOauth\Core\WechatCode;
+namespace WechatOpen\Core\WechatCode;
 
-use OpenOauth\Core\WechatCode\ErrorCode;
+use WechatOpen\Core\WechatCode\ErrorCode;
 
 /**
  * XMLParse class

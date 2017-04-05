@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenOauth;
+namespace WechatOpen;
 
-use OpenOauth\Core\Core;
-use OpenOauth\Core\Http\Http;
+use WechatOpen\Core\Core;
+use WechatOpen\Core\Http\Http;
 
 class Authorized extends Core
 {
@@ -47,7 +47,7 @@ HTML;
      *
      * @param string $authorizer_app_id
      *
-     * @return array|bool|\OpenOauth\Core\DBDriver\BaseDriver
+     * @return array|bool|\WechatOpen\Core\DBDriver\BaseDriver
      */
     public function getApiQueryAuth($authorizer_app_id = '')
     {

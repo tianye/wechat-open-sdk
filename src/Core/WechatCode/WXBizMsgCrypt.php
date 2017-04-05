@@ -1,5 +1,5 @@
 <?php
-namespace OpenOauth\Core\WechatCode;;
+namespace WechatOpen\Core\WechatCode;;
 
 /**
  * 对公众平台发送给公众账号的消息加解密示例代码.
@@ -7,11 +7,11 @@ namespace OpenOauth\Core\WechatCode;;
  * @copyright Copyright (c) 1998-2014 Tencent Inc.
  */
 
-use OpenOauth\Core\WechatCode\Sha1;
-use OpenOauth\Core\WechatCode\Xmlparse;
-use OpenOauth\Core\WechatCode\Pkcs7Encoder;
-use OpenOauth\Core\WechatCode\ErrorCode;
-use OpenOauth\Core\WechatCode\Prpcrypt;
+use WechatOpen\Core\WechatCode\Sha1;
+use WechatOpen\Core\WechatCode\Xmlparse;
+use WechatOpen\Core\WechatCode\Pkcs7Encoder;
+use WechatOpen\Core\WechatCode\ErrorCode;
+use WechatOpen\Core\WechatCode\Prpcrypt;
 
 /**
  * 1.第三方回复加密消息给公众平台；

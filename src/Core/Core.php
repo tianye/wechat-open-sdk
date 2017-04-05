@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenOauth\Core;
+namespace WechatOpen\Core;
 
 use GuzzleHttp\Client;
-use OpenOauth\Core\Exceptions\ConfigMistakeException;
-use OpenOauth\Core\Http\Http;
+use WechatOpen\Core\Exceptions\ConfigMistakeException;
+use WechatOpen\Core\Http\Http;
 use stdClass;
 
 class Core

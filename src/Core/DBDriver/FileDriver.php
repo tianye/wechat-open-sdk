@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenOauth\Core\DBDriver;
+namespace WechatOpen\Core\DBDriver;
 
 /**
  * 文件缓存驱动.
