@@ -1,0 +1,23 @@
+{
+    "name": "sdk/open-oauth",
+    "description": "open-oauth",
+    "authors": [
+        {
+            "name": "tianye",
+            "email": "tianye@iwork365.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "predis/predis": "^1.1",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "OpenOauth\\": "src/"
+        }
+    }
+}
