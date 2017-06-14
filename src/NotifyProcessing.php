@@ -1,4 +1,5 @@
 <?php
+
 namespace WechatOpen;
 
 use WechatOpen\Core\Core;
@@ -13,7 +14,7 @@ class NotifyProcessing extends Core
     public function componentVerifyTicket($xml_array)
     {
         $key = 'component_verify_ticket:' . $xml_array['AppId'];
-        self::$cacheDriver->_set($key, $xml_array['ComponentVerifyTicket'], 1200);
+        self::$cacheDriver->_set($key, $xml_array['ComponentVerifyTicket'], 0);
         $component_verify_ticket = $xml_array['ComponentVerifyTicket'];
 
         return $component_verify_ticket;
