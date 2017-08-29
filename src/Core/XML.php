@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenOauth\Core;
+namespace WechatOpen\Core;
 
 /**
  * XML.php.

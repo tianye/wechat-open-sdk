@@ -1,10 +1,9 @@
 <?php
 
-namespace OpenOauth\Core\WechatCode;
+namespace WechatOpen\Core\WechatCode;
 
 use Exception;
-use OpenOauth\Core\XML;
-use WechatOpen\Core\WechatCode\ErrorCode;
+use WechatOpen\Core\XML;
 
 /**
  * Prpcrypt class
